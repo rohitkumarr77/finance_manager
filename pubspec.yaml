@@ -1,0 +1,98 @@
+name: finance_manager
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+    # firebase
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.3.0
+
+    # UI Components
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+
+   # State Management
+  provider: ^6.1.1
+  get: ^4.6.6
+
+  # Local Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+    # Charts and Visualization
+  fl_chart: ^0.65.0
+  syncfusion_flutter_charts: ^24.1.41
+
+    # Date and Time
+  intl: ^0.19.0
+
+    # File Handling
+  file_picker: ^10.3.8
+  path: ^1.8.3
+
+    # PDF Generation (for reports)
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+    # Excel Import/Export
+  excel: ^4.0.2
+
+    # Shared Preferences
+  shared_preferences: ^2.2.2
+
+    # Icons
+  font_awesome_flutter: ^10.6.0
+
+    # Currency Formatting
+  currency_text_input_formatter: ^2.1.9
+
+    # Image Picker (for receipts)
+  image_picker: ^1.0.5
+
+    # Notifications
+    #  flutter_local_notifications: ^10.3.0
+
+    # Biometric Authentication
+  local_auth: ^2.1.8
+
+    # Encryption (for sensitive data)
+  encrypt: ^5.0.3
+
+    # HTTP (for API calls if needed)
+  http: ^1.1.2
+  dio: ^5.4.0
+
+dev_dependencies:
+    flutter_test:
+      sdk: flutter
+
+    flutter_lints: ^3.0.1
+    hive_generator: ^2.0.1
+    build_runner: ^2.4.7
+    flutter_launcher_icons: ^0.13.1
+
+
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: "assets/icon/icon.png"
+    min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
